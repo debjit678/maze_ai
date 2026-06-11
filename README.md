@@ -24,28 +24,7 @@ Algorithms
 
     DFS: Demonstrated for its memory efficiency in specific tree-structures, though non-optimal for maze shortest paths.
 
-Decision Logic
-
-The AI employs a Divergence Check at every step. By evaluating neighboring nodes, the AI detects intersections (where available paths >2). At these points, a stochastic roll determines if the AI follows the calculated path or commits to an exploratory error.
-📦 Installation & Usage
-
-    Clone the repository:
-    Bash
-
-    git clone https://github.com/YOUR_USERNAME/Neural-Viz-AI.git
-
-    Run the application:
-    Ensure you have Python installed, then run:
-    Bash
-
-    python main.py
-
-    Packaging:
-    To create a standalone executable:
-    Bash
-
-    python -m PyInstaller --noconsole --onefile --name="NeuralMaze" main.py
 
 🎓 Academic Context
 
-This project was developed for a 2nd-year Artificial Intelligence course to demonstrate the practical application of Informed vs. Uninformed Search Strategies and the simulation of non-deterministic behavior in autonomous agents.
+This project was developed by a 2nd-year Artificial Intelligence course to demonstrate the practical application of Informed vs. Uninformed Search Strategies and the simulation of non-deterministic behavior in autonomous agents.
